@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background: #FDFED6;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    overflow-x:hidden ;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    background-size:cover;
+}
+
+#imglogo{
+    width: 154px;
+    height: 154px;
+}
+
+#instagram{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 27px;
+    background: #0F5E03;
+}
+
+#instagram > a{
+    text-decoration: none;
+    color: #FDFED6;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 2px;
+
+}
+
+#instagram > a:hover{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 1px;
+    transform: translate(-1px, -1px);
+}
+
+#logoinsta{
+    padding-bottom: 2px;
+    width: 29.29px;
+    height: 26px;
+}
+
+#botao{
+    padding:20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background: #08B438;
+    width: 150px;
+    height: 25px;
+    border: 1px solid rgb(42, 237, 42);
+    border-radius: 5px;
+    color: white;
+}
+
+#seth1{
+    display: flex;
+    justify-content: center;
+    background-size:cover;
+}
+
+#imgseth{
+    width: 287px;
+    height: 292px;
+    margin-top: 20px;
+}
+
+#seth2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 34px;
+    color: #037723;
+}
+
+#imagem-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin:30px 0px -15px 0px;
+}
+
+#flash{
+    width: 140.03px;
+    height: 159.29px;
+}
+
+#joaofrango{
+    width: 138.62px;
+    height: 145.14px;
+    
+}
+
+footer{
+    width: 100vw;
+    height: 21px;
+    background: #7C7C7C;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
