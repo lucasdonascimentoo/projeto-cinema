@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 430px) and (max-width: 600px){
+    .imagens >img{
+        width: 100vw;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    #imgseth{
+        width: 500px;
+        height: 500px;
+        margin-top: 20px;
+    }
+
+    #seth2{
+        font-size:20px;
+        line-height:20px;
+        
+    }
+   
+    .imagens{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    #imglogo{
+        width: 250px;
+        height: 250px;
+    }
+
+   .imagens>img{
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 850px;
+   }
+
+   #imagem-bottom{
+    justify-content: space-around;
+   }
+}
