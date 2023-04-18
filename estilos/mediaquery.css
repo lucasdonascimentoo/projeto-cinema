@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 430px) and (max-width: 600px){
+@media screen and (min-width: 430px) and (max-width: 840px){
     .imagens >img{
         width: 100vw;
         height: 600px;
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 840px){
     #imgseth{
         width: 500px;
         height: 500px;
