@@ -1,5 +1,45 @@
 @charset "UTF-8";
 
+@media screen and (min-width:100px) and (max-width:410px){
+    button{
+        width: 100px;
+        height: 25px;
+    }
+    
+    
+    .imagens > img{
+        width:250px;
+        height:250px;
+    } 
+
+
+    #imgseth{
+        display: flex;
+        justify-content: center;
+        width:250px;
+        height:250px;
+    }
+
+    #imagem-bottom{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #flash{
+        width:100px;
+        height:100px;
+    }
+
+    #joaofrango{
+        width:100px;
+        height:100px;
+    }
+
+    footer{
+        font-size: 13px;
+    }
+}
+
 @media screen and (min-width: 430px) and (max-width: 840px){
     .imagens >img{
         width: 100vw;
