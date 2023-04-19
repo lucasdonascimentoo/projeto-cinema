@@ -6,6 +6,7 @@
     "scope": "https://cinemaconha.netlify.app/",
     "short_name": "cinemaconha",
     "start_url": "https://cinemaconha.netlify.app/",
+    "theme_color": "#FDFED6",
 
     "icons": [
       {
