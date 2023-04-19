@@ -1,0 +1,53 @@
+{
+    "background_color": "#FDFED6" , 
+    "description": "Site com 'críticas' de filmes e séries da página @cine.maconha no instagram.",
+    "display": "standalone",
+    "name": "cinemaconha.netlify",
+    "scope": "https://cinemaconha.netlify.app/",
+    "short_name": "cinemaconha",
+    "start_url": "https://cinemaconha.netlify.app/",
+
+    "icons": [
+      {
+        "src": "imagens/512.png",
+        "sizes": "512x512",
+        "type":"image/png",
+        "purpose":"any"
+      },
+      {
+        "src": "images/1024.png",
+        "sizes":"1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "images/114.png",
+        "sizes":"114x114",
+        "type": "image/png"
+      },
+      {
+        "src": "images/120.png",
+        "sizes":"120x120",
+        "type": "image/png"
+      }, 
+      {
+        "src": "images/180.png",
+        "sizes":"180x180",
+        "type": "image/png",
+        "purpose":"maskable"   
+      },
+      
+      {
+        "src": "images/144.png",
+        "sizes":"144x144",
+        "type": "image/png",
+        "purpose":  "any"
+      }
+    
+    ],
+    "lang": "pt-BR",
+    "display_override": [
+      "window-controls-overlay",
+      "standalone",
+      "browser"
+    ]
+  }

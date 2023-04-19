@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
     <link rel="icon" href="imagens/cinemaconha-icone.jpg" type="icon">
+    <meta name="description" content="Site com 'críticas' de filmes e séries da página @cine.maconha no instagram">
+    <link rel="manifest" href="manifest.json">
+		<link rel="icon" href="images/120.png" type="image/png">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="msapplication-TileImage" content="images/144.png">
+		<meta name="msapplication-TileColor" content="#FDFED6">
+		<meta name="theme-color" content="#FDFED6">
+		<link rel="shortcut icon" sizes="180x180" href="images/180.png">
+		<link rel="shortcut icon" sizes="114x114" href="images/114.png">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="green">
+		<meta name="apple-mobile-web-app-title" content="cine.maconha">
+		<link rel="apple-touch-icon" href="images/144.png">
+		<link rel="apple-touch-icon" href="images/180.png">
 </head>
 <html> 
     <body class="container">
@@ -47,5 +61,10 @@
             <footer>
                 <p>Desenvolvido por <a href="https://github.com/lucasdonascimentoo" target="_blank">lucasdonascimentoo</a></p>
             </footer>
+            <script>
+				if (typeof navigator.serviceWorker !== 'undefined') {
+				  navigator.serviceWorker.register('service-worker.js')
+				}
+			</script>
     </body>
 </html>
