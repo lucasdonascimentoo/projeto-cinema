@@ -16,29 +16,29 @@
         "purpose":"any"
       },
       {
-        "src": "images/1024.png",
+        "src": "imagens/1024.png",
         "sizes":"1024x1024",
         "type": "image/png"
       },
       {
-        "src": "images/114.png",
+        "src": "imagens/114.png",
         "sizes":"114x114",
         "type": "image/png"
       },
       {
-        "src": "images/120.png",
+        "src": "imagens/120.png",
         "sizes":"120x120",
         "type": "image/png"
       }, 
       {
-        "src": "images/180.png",
+        "src": "imagens/180.png",
         "sizes":"180x180",
         "type": "image/png",
         "purpose":"maskable"   
       },
       
       {
-        "src": "images/144.png",
+        "src": "imagens/144.png",
         "sizes":"144x144",
         "type": "image/png",
         "purpose":  "any"
