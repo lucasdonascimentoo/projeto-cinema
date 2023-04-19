@@ -2,7 +2,7 @@
     "background_color": "#FDFED6" , 
     "description": "Site com 'críticas' de filmes e séries da página @cine.maconha no instagram.",
     "display": "standalone",
-    "name": "cinemaconha.netlify",
+    "name": "cinemaconha",
     "scope": "https://cinemaconha.netlify.app/",
     "short_name": "cinemaconha",
     "start_url": "https://cinemaconha.netlify.app/",
